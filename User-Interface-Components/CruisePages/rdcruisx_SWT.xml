@@ -1,0 +1,3508 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.CruisePages+rdcruisx" stylesheetfile="../cis/styles/CIS_WM.css" addstylesheetfile="../HTMLBasedGUI/bootstrap/njxmobiledemo.css" natsource="rdcruisa" natsinglebyte="true" natkcheck="true" xmlns:njx="http://www.softwareag.com/njx/njxMapConverter" xmlns:bmobile="http://www.softwareag.com/njx/njxMobile" casaindex="1" adapterlisteners="com.softwareag.cis.adapter.TriggerEventAdapterListener" >
+
+
+            <njx:objects casaindex="2" >
+
+
+
+            </njx:objects>
+
+
+
+            <pagebody pagebodystyle="background-color: #125996" casaindex="3" >
+
+
+
+                        <bmobile:container takefullwidth="true" casaindex="4" >
+
+
+
+                                    <bmobile:row casaindex="5" >
+
+
+
+                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-4 col-xs-8" casaindex="6" >
+
+
+
+                                                            <bmobile:flabel styleclasses="cruiselabelitalic" nameprop="pvdatum" casaindex="7" >
+
+
+
+                                                            </bmobile:flabel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-5 col-md-5 col-sm-4 col-xs-0" casaindex="8" >
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="9" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-flageng.png" method="onSeten" title="english" casaindex="10" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="11" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-flagger.png" method="onSetge" title="german" casaindex="12" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="13" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-flagspa.png" method="onSetsp" title="spanish" casaindex="14" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="15" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-flagpor.png" method="onSetpo" title="portuguese" casaindex="16" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:vdist style="height:5px;background-color:#0C3B60" casaindex="17" >
+
+
+
+                                    </bmobile:vdist>
+
+
+
+                                    <bmobile:row style="background-color:#0C3B60" casaindex="18" >
+
+
+
+                                                <bmobile:col styleclasses="col-lg-9 col-md-9 col-sm-9 col-xs-9" casaindex="19" >
+
+
+
+                                                            <bmobile:flabel styleclasses="cruiselabelitalic" nameprop="pvmytopmail" casaindex="20" >
+
+
+
+                                                            </bmobile:flabel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="21" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-login.png" method="onLoginicon" visibleprop="pvloginiconvisible" invisiblemode="invisible" title="Login" style="padding:4%;" casaindex="22" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="23" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-mydata.png" method="onMydataicon" visibleprop="pvmydataiconvisible" invisiblemode="invisible" title="MyData" style="padding:4%;" casaindex="24" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="25" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-newdata.png" method="onNewdataicon" visibleprop="pvnewdataiconvisible" invisiblemode="invisible" title="New User" style="padding:4%;" casaindex="26" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left:0;padding-right:2%;" casaindex="27" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-logout.png" method="onLogouticon" visibleprop="pvlogouticonvisible" invisiblemode="invisible" title="Logout" style="padding:4%;" casaindex="28" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvloginpanelvisible" casaindex="29" >
+
+
+
+                                                <bmobile:col casaindex="30" >
+
+
+
+                                                            <bmobile:imageout valueprop="pvmyloginimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="31" >
+
+
+
+                                                            </bmobile:imageout>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:panel style="background-color: ##0C3B60; border-style:none" visibleprop="pvloginpanelvisible" invisiblemode="invisible" casaindex="32" >
+
+
+
+                                                <bmobile:panelbody style="background-color: #125996; border-style:none" casaindex="33" >
+
+
+
+                                                            <bmobile:row casaindex="34" >
+
+
+
+                                                                        <bmobile:col styleclasses="col-lg-6 col-md-6 col-xs-6 col-sm-6" casaindex="35" >
+
+
+
+                                                                                    <bmobile:ffield styleclasses="input-md input-responsive" placeholder="email" valueprop="pvloginident" required="true" validationmessage="Required" casaindex="36" >
+
+
+
+                                                                                    </bmobile:ffield>
+
+
+
+                                                                        </bmobile:col>
+
+
+
+                                                                        <bmobile:col styleclasses="col-lg-6 col-md-6 col-xs-6 col-sm-6" casaindex="37" >
+
+
+
+                                                                                    <bmobile:ffield styleclasses="input-md input-responsive" placeholder="password" valueprop="pvloginpw" required="true" validationmessage="Required" casaindex="38" >
+
+
+
+                                                                                    </bmobile:ffield>
+
+
+
+                                                                        </bmobile:col>
+
+
+
+                                                            </bmobile:row>
+
+
+
+                                                            <bmobile:row casaindex="39" >
+
+
+
+                                                                        <bmobile:col styleclasses="col-lg-offset-5 col-md-offset-5 col-sm-offset-4 col-xs-offset-4 col-lg-1 col-md-1 col-sm-2 col-xs-2" style="padding-left:0;padding-right:2%;" casaindex="40" >
+
+
+
+                                                                                    <bmobile:icon iconurl="./images/RD-ok.png" method="onLoginbutton" title="ok" style="border-style:none;padd ing:2%;" casaindex="41" >
+
+
+
+                                                                                    </bmobile:icon>
+
+
+
+                                                                        </bmobile:col>
+
+
+
+                                                                        <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-2 col-xs-2" style="padding-left:0;padding-right:2%;" casaindex="42" >
+
+
+
+                                                                                    <bmobile:icon iconurl="./images/RD-cancel.png" method="onLoginClose" title="Cancel" style="border-style:none;padding:2%;" casaindex="43" >
+
+
+
+                                                                                    </bmobile:icon>
+
+
+
+                                                                        </bmobile:col>
+
+
+
+                                                            </bmobile:row>
+
+
+
+                                                            <bmobile:row style="background-color:#0C3B60" invisiblemode="invisible" visibleprop="pvloginalerttxtvisible" casaindex="44" >
+
+
+
+                                                                        <bmobile:col casaindex="45" >
+
+
+
+                                                                                    <bmobile:flabel style="color:#95b3d7;" nameprop="pvloginalerttxt" casaindex="46" >
+
+
+
+                                                                                    </bmobile:flabel>
+
+
+
+                                                                        </bmobile:col>
+
+
+
+                                                            </bmobile:row>
+
+
+
+                                                </bmobile:panelbody>
+
+
+
+                                    </bmobile:panel>
+
+
+
+                        </bmobile:container>
+
+
+
+                        <bmobile:navbar menuprop="dlmenu" casaindex="47" >
+
+
+
+                        </bmobile:navbar>
+
+
+
+                        <bmobile:container casaindex="48" >
+
+
+
+                        </bmobile:container>
+
+
+
+                        <bmobile:container takefullwidth="true" comment="mittlerer Teil / at lg device 2 cols" style="overflow-x:hidden;" casaindex="49" >
+
+
+
+                                    <bmobile:row casaindex="50" >
+
+
+
+                                                <bmobile:col comment="left part" styleclasses="col-lg-9 col-md-12 col-sm-12 col-xs-12" casaindex="51" >
+
+
+
+                                                            <bmobile:panel style="background-color:#125996; border-style:none" casaindex="52" >
+
+
+
+                                                                        <bmobile:panelbody casaindex="53" >
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvhometxtvisible" casaindex="54" >
+
+
+
+                                                                                                <bmobile:col casaindex="55" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvhomeimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="56" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%;max-width:100%;" invisiblemode="invisible" visibleprop="pvhomevisible" casaindex="57" >
+
+
+
+                                                                                                <bmobile:col casaindex="58" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvtopimage" styleclasses="center-block" style="max-width:100%;height:auto;padding-left:0;padding-right:0;margin-left:0;margin-right:0" casaindex="59" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:vdist style="height:20px" casaindex="60" >
+
+
+
+                                                                                    </bmobile:vdist>
+
+
+
+                                                                                    <bmobile:row invisiblemode="invisible" visibleprop="pvhomevisible" casaindex="61" >
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-12 col-md-12 col-sm-12 col-xs-12" casaindex="62" >
+
+
+
+                                                                                                            <bmobile:panel style="border-style:none;background-color: #125996;" casaindex="63" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="64" >
+
+
+
+                                                                                                                                    <bmobile:row casaindex="65" >
+
+
+
+                                                                                                                                                <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;padding-left:5%;;padding-right:5%" nameprop="pvhomedescription0a" casaindex="66" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="67" >
+
+
+
+                                                                                                                                                <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;padding-left:5%;;padding-right:5%" nameprop="pvhomedescription0b" casaindex="68" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="69" >
+
+
+
+                                                                                                                                                <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;padding-left:5%;;padding-right:5%" nameprop="pvhomedescription0c" casaindex="70" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row invisiblemode="invisible" visibleprop="pvhomevisible" casaindex="71" >
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-12 col-xs-12" casaindex="72" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #0C3B60; border-color:#c6d9f1; border-style:solid" casaindex="73" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="74" >
+
+
+
+                                                                                                                                    <bmobile:row casaindex="75" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-8 col-md-8 col-sm-12 col-xs-12" casaindex="76" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;padding-left:3%" nameprop="pvhomedescription1a" casaindex="77" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="78" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-2 col-xs-2" casaindex="79" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select2.png" method="onShowAll" casaindex="80" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-9 col-md-9 col-sm-10 col-xs-10" casaindex="81" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;" nameprop="pvhomedescription1b" casaindex="82" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-12 col-xs-12" casaindex="83" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #0C3B60; border-color:#c6d9f1; border-style:solid" casaindex="84" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="85" >
+
+
+
+                                                                                                                                    <bmobile:row casaindex="86" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-8 col-md-8 col-sm-12 col-xs-12" casaindex="87" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;padding-left:3%" nameprop="pvhomedescription2a" casaindex="88" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="89" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-2 col-xs-2" casaindex="90" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select2.png" method="onHotcruises" casaindex="91" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-9 col-md-9 col-sm-10 col-xs-10" casaindex="92" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;" nameprop="pvhomedescription2b" casaindex="93" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-12 col-xs-12" casaindex="94" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #0C3B60; border-color:#c6d9f1; border-style:solid" casaindex="95" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="96" >
+
+
+
+                                                                                                                                    <bmobile:row casaindex="97" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-8 col-md-8 col-sm-12 col-xs-12" casaindex="98" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;;padding-left:3%" nameprop="pvhomedescription3a" casaindex="99" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="100" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-2 col-xs-2" casaindex="101" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select2.png" method="onFavorites" casaindex="102" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-9 col-md-9 col-sm-10 col-xs-10" casaindex="103" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;text-align:left;font-size: 1.2em;font-style:italic;" nameprop="pvhomedescription3b" casaindex="104" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvmydatapanelvisible" casaindex="105" >
+
+
+
+                                                                                                <bmobile:col casaindex="106" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvmydataimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="107" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row style="margin-left:0;margin-right:0;" casaindex="108" >
+
+
+
+                                                                                                <bmobile:col casaindex="109" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #0C3B60; border-style:none" visibleprop="pvmydatapanelvisible" invisiblemode="invisible" casaindex="110" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="111" >
+
+
+
+                                                                                                                                    <bmobile:row style="background-color: #0C3B60" casaindex="112" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-10 col-xs-10" casaindex="113" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1; border-style:none" nameprop="pvmynamelabeprop" casaindex="114" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield styleclasses="input-responsive" placeholder="Username" valueprop="pvmyname" maxlength="20" casaindex="115" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-2 col-md-2 col-sm-10 col-xs-10" casaindex="116" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1;" nameprop="pvmyfirstnamelabelprop" casaindex="117" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield styleclasses="input-responsive" placeholder="First Name" valueprop="pvmyfirstname" maxlength="20" njx:natstringtype="U" casaindex="118" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-10 col-xs-10" casaindex="119" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1;" nameprop="pvmybirthdatelabelprop" casaindex="120" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:dateinput2 styleclasses="form-control" datatype="date" valueprop="pvmybirthdate" placeholder="Registration Start" casaindex="121" >
+
+
+
+                                                                                                                                                            </bmobile:dateinput2>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row style="background-color: #0C3B60" casaindex="122" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-10 col-md-10 col-sm-10 col-xs-10" casaindex="123" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1; border-style:none" nameprop="pvmyemaillabelprop" casaindex="124" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield styleclasses="input-responsive" placeholder="Email" valueprop="pvmyemail" required="true" validationmessage="Required" casaindex="125" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row style="background-color: #0C3B60" casaindex="126" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-10 col-xs-10" casaindex="127" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1; border-style:none" nameprop="pvmystreetlabelprop" casaindex="128" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield styleclasses="input-responsive" placeholder="Street" valueprop="pvmyStreet" maxlength="20" formautocomplete="false" required="true" validationmessage="Required" casaindex="129" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-2 col-md-2 col-sm-10 col-xs-10" casaindex="130" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1;" nameprop="pvmyziplabelprop" casaindex="131" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield styleclasses="input-responsive" placeholder="ZipCode" valueprop="pvmyzipcode" maxlength="20" formautocomplete="false" required="true" validationmessage="Required" casaindex="132" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-4 col-md-4 col-sm-10 col-xs-10" casaindex="133" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color: #c6d9f1;" nameprop="pvmycitylabelprop" casaindex="134" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield styleclasses="input-responsive" placeholder="City" valueprop="pvmycity" maxlength="20" formautocomplete="false" required="true" validationmessage="Required" casaindex="135" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="136" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-2 col-xs-2" style="padding-left:0;padding-right:2%;" casaindex="137" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-ok2.png" method="onMydataSave" title="ok" style="border-style:none;padding:2%;" casaindex="138" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-2 col-xs-2" style="padding-left:0;padding-right:2%;" casaindex="139" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-cancel2.png" method="onMydataClose" title="Cancel" style="border-style:none;padding:2%;" casaindex="140" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row style="background-color:#0C3B60" invisiblemode="invisible" visibleprop="pvmydataalerttxtvisible" casaindex="141" >
+
+
+
+                                                                                                                                                <bmobile:col casaindex="142" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#95b3d7;" nameprop="pvmydataalerttxt" casaindex="143" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvoffervisible" casaindex="144" >
+
+
+
+                                                                                                <bmobile:col casaindex="145" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvofferimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="146" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row style="margin-left:0;margin-right:0" casaindex="147" >
+
+
+
+                                                                                                <bmobile:col casaindex="148" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #1995dc; border-style:none" visibleprop="pvoffervisible" invisiblemode="invisible" casaindex="149" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="150" >
+
+
+
+                                                                                                                                    <bmobile:row casaindex="151" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-6 col-sm-6 col-xs-6" casaindex="152" >
+
+
+
+                                                                                                                                                            <bmobile:panel style="background-color: #125996; border-style:none" casaindex="153" >
+
+
+
+                                                                                                                                                                        <bmobile:panelbody casaindex="154" >
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="155" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="156" >
+
+
+
+                                                                                                                                                                                                            <bmobile:imageout valueprop="pvofferimage1" style="max-width:100%; width:100%; height: auto;" casaindex="157" >
+
+
+
+                                                                                                                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:vdist style="height:15px" casaindex="158" >
+
+
+
+                                                                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="159" >
+
+
+
+                                                                                                                                                                                                <bmobile:col style="color:#c6d9f1; text-align:right" casaindex="160" >
+
+
+
+                                                                                                                                                                                                            <bmobile:flabel styleclasses="cruiselabelprice" nameprop="pvoffer1price" casaindex="161" >
+
+
+
+                                                                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row casaindex="162" >
+
+
+
+                                                                                                                                                                                                <bmobile:col style="color:#c6d9f1" casaindex="163" >
+
+
+
+                                                                                                                                                                                                            <bmobile:flabel styleclasses="cruiselabeloffername" nameprop="pvoffer1cruisename" casaindex="164" >
+
+
+
+                                                                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="165" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer1route" casaindex="166" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="167" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer1date" casaindex="168" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="169" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="170" >
+
+
+
+                                                                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select.png" method="onShowdetails1" title="Select Favorit 1" style="max-width:30%; width:30%; height:auto;text-align:left" casaindex="171" >
+
+
+
+                                                                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-6 col-sm-6 col-xs-6" casaindex="172" >
+
+
+
+                                                                                                                                                            <bmobile:panel style="background-color: #125996; border-style:none" casaindex="173" >
+
+
+
+                                                                                                                                                                        <bmobile:panelbody casaindex="174" >
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="175" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="176" >
+
+
+
+                                                                                                                                                                                                            <bmobile:imageout valueprop="pvofferimage2" styleclasses="center-block" style="max-width:100%; width:100%; height: auto;" casaindex="177" >
+
+
+
+                                                                                                                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:vdist style="height:15px" casaindex="178" >
+
+
+
+                                                                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="179" >
+
+
+
+                                                                                                                                                                                                <bmobile:col style="color:#c6d9f1; text-align:right" casaindex="180" >
+
+
+
+                                                                                                                                                                                                            <bmobile:flabel styleclasses="cruiselabelprice" nameprop="pvoffer2price" casaindex="181" >
+
+
+
+                                                                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="182" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffername" nameprop="pvoffer2cruisename" casaindex="183" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="184" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer2route" casaindex="185" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="186" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer2date" casaindex="187" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row casaindex="188" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="189" >
+
+
+
+                                                                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select.png" method="onShowdetails2" title="Select Favorit 2" style="max-width:30%; width:30%; height:auto;text-align:left" casaindex="190" >
+
+
+
+                                                                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-6 col-sm-6 col-xs-6" casaindex="191" >
+
+
+
+                                                                                                                                                            <bmobile:panel style="background-color: #125996; border-style:none" casaindex="192" >
+
+
+
+                                                                                                                                                                        <bmobile:panelbody casaindex="193" >
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="194" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="195" >
+
+
+
+                                                                                                                                                                                                            <bmobile:imageout valueprop="pvofferimage3" styleclasses="center-block" style="max-width:100%; width:100%; height: auto;" casaindex="196" >
+
+
+
+                                                                                                                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:vdist style="height:15px" casaindex="197" >
+
+
+
+                                                                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="198" >
+
+
+
+                                                                                                                                                                                                <bmobile:col style="color:#c6d9f1; text-align:right" casaindex="199" >
+
+
+
+                                                                                                                                                                                                            <bmobile:flabel styleclasses="cruiselabelprice" nameprop="pvoffer3price" casaindex="200" >
+
+
+
+                                                                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="201" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffername" nameprop="pvoffer3cruisename" casaindex="202" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="203" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer3route" casaindex="204" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="205" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer3date" casaindex="206" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row casaindex="207" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="208" >
+
+
+
+                                                                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select.png" method="onShowdetails3" title="Select Favorit 3" style="max-width:30%; width:30%; height:auto;text-align:left" casaindex="209" >
+
+
+
+                                                                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-3 col-md-6 col-sm-6 col-xs-6" casaindex="210" >
+
+
+
+                                                                                                                                                            <bmobile:panel style="background-color: #125996; border-style:none" casaindex="211" >
+
+
+
+                                                                                                                                                                        <bmobile:panelbody casaindex="212" >
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="213" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="214" >
+
+
+
+                                                                                                                                                                                                            <bmobile:imageout valueprop="pvofferimage4" styleclasses="center-block" style="max-width:100%; width:100%; height: auto;" casaindex="215" >
+
+
+
+                                                                                                                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:vdist style="height:15px" casaindex="216" >
+
+
+
+                                                                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="217" >
+
+
+
+                                                                                                                                                                                                <bmobile:col style="color:#c6d9f1; text-align:right" casaindex="218" >
+
+
+
+                                                                                                                                                                                                            <bmobile:flabel styleclasses="cruiselabelprice" nameprop="pvoffer4price" casaindex="219" >
+
+
+
+                                                                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="220" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffername" nameprop="pvoffer4cruisename" casaindex="221" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="222" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer4route" casaindex="223" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row style="color:#c6d9f1" casaindex="224" >
+
+
+
+                                                                                                                                                                                                <bmobile:flabel styleclasses="cruiselabeloffermisc" nameprop="pvoffer4date" casaindex="225" >
+
+
+
+                                                                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                                    <bmobile:row casaindex="226" >
+
+
+
+                                                                                                                                                                                                <bmobile:col casaindex="227" >
+
+
+
+                                                                                                                                                                                                            <bmobile:icon iconurl="./images/RD-select.png" method="onShowdetails4" title="Select Favorit 4" style="max-width:30%; width:30%; height:auto;text-align:left" casaindex="228" >
+
+
+
+                                                                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvqestionsvisible" casaindex="229" >
+
+
+
+                                                                                                <bmobile:col casaindex="230" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvqestionsimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="231" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvcrdetailspanelvisible" casaindex="232" >
+
+
+
+                                                                                                <bmobile:col casaindex="233" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvdetailsimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="234" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row style="margin-left:0;margin-right:0;" casaindex="235" >
+
+
+
+                                                                                                <bmobile:col casaindex="236" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #1995dc; border-style:none" visibleprop="pvcrdetailspanelvisible" invisiblemode="invisible" casaindex="237" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="238" >
+
+
+
+                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="239" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-8 col-xs-8" casaindex="240" >
+
+
+
+                                                                                                                                                            <bmobile:imageout valueprop="pvcruiseimage" casaindex="241" >
+
+
+
+                                                                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:vdist style="height:8px;background-color:##1995dc" casaindex="242" >
+
+
+
+                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="243" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-12 col-xs-12" casaindex="244" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;font-style:italic;font-size: 1em" nameprop="pvcrlabeldetstartharbor" casaindex="245" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield valueprop="pvcrdetstartharbor" maxlength="20" formautocomplete="false" required="true" validationmessage="Required" casaindex="246" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-12 col-xs-12" casaindex="247" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;font-style:italic;font-size: 1em" nameprop="pvcrlabeldetdestharbor" casaindex="248" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield valueprop="pvcrdetdestharbor" maxlength="20" formautocomplete="false" required="true" validationmessage="Required" casaindex="249" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="250" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-12 col-xs-12" casaindex="251" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;font-style:italic;font-size: 1em" nameprop="pvcrlabeldetstartdate" casaindex="252" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:dateinput2 styleclasses="form-control" datatype="date" valueprop="pvcrdetstartdate" casaindex="253" >
+
+
+
+                                                                                                                                                            </bmobile:dateinput2>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-12 col-xs-12" casaindex="254" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;font-style:italic;font-size: 1em" nameprop="pvcrlabeldetenddate" casaindex="255" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:dateinput2 styleclasses="form-control" datatype="date" valueprop="pvcrdetenddate" casaindex="256" >
+
+
+
+                                                                                                                                                            </bmobile:dateinput2>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="257" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-12 col-xs-12" casaindex="258" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;font-style:italic;font-size: 1em" nameprop="pvcrlabeldetyachtname" casaindex="259" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield placeholder="Street" valueprop="pvcrdetyachtname" maxlength="20" formautocomplete="false" required="true" validationmessage="Required" casaindex="260" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="261" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-6 col-md-6 col-sm-12 col-xs-12" casaindex="262" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#c6d9f1;font-style:italic;font-size: 1em" nameprop="pvcrlabeldetprice" casaindex="263" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                            <bmobile:ffield placeholder="Prices" valueprop="pvcrdetprices" maxlength="30" formautocomplete="false" required="true" validationmessage="Required" casaindex="264" >
+
+
+
+                                                                                                                                                            </bmobile:ffield>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:vdist style="height:5px;background-color:##1995dc" casaindex="265" >
+
+
+
+                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="266" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-1 col-md-1 col-sm-2 col-xs-2" style="padding-left:0;padding-right:2%;" casaindex="267" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-ok3.png" method="onBookingSave" title="ok" style="border-style:none;padding:2%;" casaindex="268" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-2 col-xs-2" style="padding-left:0;padding-right:2%;" casaindex="269" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-cancel3.png" method="onBookingClose" title="Cancel" style="border-style:none;padding:2%;" casaindex="270" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row style="background-color:#0C3B60" invisiblemode="invisible" visibleprop="pvdetailsalerttxtvisible" casaindex="271" >
+
+
+
+                                                                                                                                                <bmobile:col casaindex="272" >
+
+
+
+                                                                                                                                                            <bmobile:flabel style="color:#95b3d7;" nameprop="pvdetailsalerttxt" casaindex="273" >
+
+
+
+                                                                                                                                                            </bmobile:flabel>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:vdist style="height:5px;background-color:##1995dc" casaindex="274" >
+
+
+
+                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvfavtxtvisible" casaindex="275" >
+
+
+
+                                                                                                <bmobile:col casaindex="276" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvfavorimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="277" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row style="margin-left:0;margin-right:0;" casaindex="278" >
+
+
+
+                                                                                                <bmobile:col casaindex="279" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #125996; border-style:none" visibleprop="pvfavtxtvisible" invisiblemode="invisible" casaindex="280" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="281" >
+
+
+
+                                                                                                                                    <bmobile:row styleclasses="center-block" casaindex="282" >
+
+
+
+                                                                                                                                                <div id="myCarousel" class="carousel slide" data-ride="carousel" casaindex="283" >
+
+
+
+                                                                                                                                                            <ol class="carousel-indicators" data-interval="2000" pause="hover" casaindex="284" >
+
+
+
+                                                                                                                                                                        <li data-target="#myCarousel" data-slide-to="0" class="active" casaindex="285" >
+
+
+
+                                                                                                                                                                        </li>
+
+
+
+                                                                                                                                                                        <li data-target="#myCarousel" data-slide-to="1" casaindex="286" >
+
+
+
+                                                                                                                                                                        </li>
+
+
+
+                                                                                                                                                                        <li data-target="#myCarousel" data-slide-to="2" casaindex="287" >
+
+
+
+                                                                                                                                                                        </li>
+
+
+
+                                                                                                                                                                        <li data-target="#myCarousel" data-slide-to="3" casaindex="288" >
+
+
+
+                                                                                                                                                                        </li>
+
+
+
+                                                                                                                                                            </ol>
+
+
+
+                                                                                                                                                            <div class="carousel-inner" role="listbox" style="margin-top:10px" casaindex="289" >
+
+
+
+                                                                                                                                                                        <div class="item active" casaindex="290" >
+
+
+
+                                                                                                                                                                                    <bmobile:imageout valueprop="pvimageaghios" alt="Aghios" style="width:50%;margin: auto;padding-top:2%" casaindex="291" >
+
+
+
+                                    				                                                                                                                                </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                                                                <div class="carousel-caption" style="position: relative; left: auto; right: auto;" casaindex="292" >
+
+
+
+                                                                                                                                                                                                <h3 casaindex="293" >
+
+
+
+Agios Nikolaos                                                                                                                                                                                                </h3>
+
+
+
+                                                                                                                                                                                    </div>
+
+
+
+                                                                                                                                                                        </div>
+
+
+
+                                                                                                                                                                        <div class="item" casaindex="294" >
+
+
+
+                                                                                                                                                                                    <bmobile:imageout valueprop="pvimageparos" alt="Paros" style="width:50%;margin: auto;padding-top:2%" casaindex="295" >
+
+
+
+                                    				                                                                                                                                </bmobile:imageout>
+
+
+
+                                                                                                                                                                                    <div class="carousel-caption" style="position: relative; left: auto; right: auto;" casaindex="296" >
+
+
+
+                                                                                                                                                                                                <h3 casaindex="297" >
+
+
+
+Paros                                                                                                                                                                                                </h3>
+
+
+
+                                                                                                                                                                                    </div>
+
+
+
+                                                                                                                                                                        </div>
+
+
+
+                                                                                                                                                                        <div class="item" casaindex="298" >
+
+
+
+                                                                                                                                                                                    <bmobile:imageout valueprop="pvimagelefkas" alt="Lefkas" style="width:50%;margin: auto;padding-top:2%" casaindex="299" >
+
+
+
+                                    				                                                                                                                                </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                                                                <div class="carousel-caption" style="position: relative; left: auto; right: auto;" casaindex="300" >
+
+
+
+                                                                                                                                                                                                <h3 casaindex="301" >
+
+
+
+Lefkas                                                                                                                                                                                                </h3>
+
+
+
+                                                                                                                                                                                    </div>
+
+
+
+                                                                                                                                                                        </div>
+
+
+
+                                                                                                                                                                        <div class="item" casaindex="302" >
+
+
+
+                                                                                                                                                                                    <bmobile:imageout valueprop="pvimagesantorini" alt="Santorini" style="width:50%;margin: auto;padding-top:2%" casaindex="303" >
+
+
+
+                                    				                                                                                                                                </bmobile:imageout>
+
+
+
+                                                                                                                                                                                                                                                 <div class="carousel-caption" style="position: relative; left: auto; right: auto;" casaindex="304" >
+
+
+
+                                                                                                                                                                                                <h3 casaindex="305" >
+
+
+
+Santorini                                                                                                                                                                                                </h3>
+
+
+
+                                                                                                                                                                                    </div>
+
+
+
+                                                                                                                                                                        </div>
+
+
+
+                                                                                                                                                            </div>
+
+
+
+                                                                                                                                                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" casaindex="306" >
+
+
+
+                                                                                                                                                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" casaindex="307" >
+
+
+
+                                                                                                                                                                        </span>
+
+
+
+                                                                                                                                                                        <span class="sr-only" casaindex="308" >
+
+
+
+Previous                                                                                                                                                                        </span>
+
+
+
+                                                                                                                                                            </a>
+
+
+
+                                                                                                                                                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" casaindex="309" >
+
+
+
+                                                                                                                                                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" casaindex="310" >
+
+
+
+                                                                                                                                                                        </span>
+
+
+
+                                                                                                                                                                        <span class="sr-only" casaindex="311" >
+
+
+
+Next                                                                                                                                                                        </span>
+
+
+
+                                                                                                                                                            </a>
+
+
+
+                                                                                                                                                </div>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row style="background-color: #125996; border-style:none" casaindex="312" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" casaindex="313" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-selfav1.png" method="onFav1button" title="Select Favorit 1" style="font-size:5px" casaindex="314" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-2 col-md-2 col-sm-2 col-xs-2" casaindex="315" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-selfav2.png" method="onFav2button" title="Select Favorit 2" style="font-size:5px" casaindex="316" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-2 col-md-2 col-sm-2 col-xs-2" casaindex="317" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-selfav3.png" method="onFav3button" title="Select Favorit 3" style="font-size:5px" casaindex="318" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-2 col-md-2 col-sm-2 col-xs-2" casaindex="319" >
+
+
+
+                                                                                                                                                            <bmobile:icon iconurl="./images/RD-selfav4.png" method="onFav4button" title="Select Favorit 4" style="font-size:5px" casaindex="320" >
+
+
+
+                                                                                                                                                            </bmobile:icon>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%;max-width:100%;" invisiblemode="invisible" visibleprop="pvresultpanelvisible" casaindex="321" >
+
+
+
+                                                                                                <bmobile:col casaindex="322" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvsearchimage" styleclasses="center-block" style="max-width:100%;height:auto;padding-left:0;padding-right:0;margin-bottom:10%;margin-left:0;margin-right:0" casaindex="323" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" invisiblemode="invisible" visibleprop="pvresultpanelvisible" casaindex="324" >
+
+
+
+                                                                                                <bmobile:col casaindex="325" >
+
+
+
+                                                                                                            <bmobile:imageout valueprop="pvalltripsimage" styleclasses="center-block" style="max-width:100%;height:auto;" casaindex="326" >
+
+
+
+                                                                                                            </bmobile:imageout>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row style="margin-left:0;margin-right:0;" casaindex="327" >
+
+
+
+                                                                                                <bmobile:col casaindex="328" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color:#1995dc;border-style:none" visibleprop="pvresultpanelvisible" invisiblemode="invisible" casaindex="329" >
+
+
+
+                                                                                                                        <bmobile:panelbody style="background-color: #1995dc; border-style:none" casaindex="330" >
+
+
+
+                                                                                                                                    <bmobile:vdist style="height:10%" casaindex="331" >
+
+
+
+                                                                                                                                    </bmobile:vdist>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="332" >
+
+
+
+                                                                                                                                                <bmobile:col styleclasses="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-style:none" casaindex="333" >
+
+
+
+                                                                                                                                                            <bmobile:simplegrid gridprop="lines" selectprop="selectedline" width="100%" styleclasses="table-striped" casaindex="334" >
+
+
+
+                                                                                                                                                                        <bmobile:simpleheaderrow casaindex="335" >
+
+
+
+                                                                                                                                                                                    <bmobile:simpleheadercol name="Id" style="width:3%" casaindex="336" >
+
+
+
+                                                                                                                                                                                    </bmobile:simpleheadercol>
+
+
+
+                                                                                                                                                                                    <bmobile:simpleheadercol name="Date" casaindex="337" >
+
+
+
+                                                                                                                                                                                    </bmobile:simpleheadercol>
+
+
+
+                                                                                                                                                                                    <bmobile:simpleheadercol name="Start-Harbor" casaindex="338" >
+
+
+
+                                                                                                                                                                                    </bmobile:simpleheadercol>
+
+
+
+                                                                                                                                                                                    <bmobile:simpleheadercol name="Destination" casaindex="339" >
+
+
+
+                                                                                                                                                                                    </bmobile:simpleheadercol>
+
+
+
+                                                                                                                                                                        </bmobile:simpleheaderrow>
+
+
+
+                                                                                                                                                                        <bmobile:simplerow onclickmethod="onpvLineClick" ondblclickmethod="onpvLineClick" casaindex="340" >
+
+
+
+                                                                                                                                                                                    <bmobile:simplecol colprop="pvcruiseid" casaindex="341" >
+
+
+
+                                                                                                                                                                                    </bmobile:simplecol>
+
+
+
+                                                                                                                                                                                    <bmobile:simplecol colprop="pvcrstartdate" casaindex="342" >
+
+
+
+                                                                                                                                                                                    </bmobile:simplecol>
+
+
+
+                                                                                                                                                                                    <bmobile:simplecol colprop="pvstartharbor" casaindex="343" >
+
+
+
+                                                                                                                                                                                    </bmobile:simplecol>
+
+
+
+                                                                                                                                                                                    <bmobile:simplecol colprop="pvdestharbor" casaindex="344" >
+
+
+
+                                                                                                                                                                                    </bmobile:simplecol>
+
+
+
+                                                                                                                                                                        </bmobile:simplerow>
+
+
+
+                                                                                                                                                            </bmobile:simplegrid>
+
+
+
+                                                                                                                                                </bmobile:col>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                        </bmobile:panelbody>
+
+
+
+                                                            </bmobile:panel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-3 col-md-12 col-sm-12 col-xs-12" casaindex="345" >
+
+
+
+                                                            <bmobile:panel style="background-color:#0C3B60;border-style:none" casaindex="346" >
+
+
+
+                                                                        <bmobile:panelbody casaindex="347" >
+
+
+
+                                                                                    <bmobile:row style="margin-left:0;margin-right:0;" casaindex="348" >
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-12 col-md-3 col-sm-6 col-xs-6" casaindex="349" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #125996;border-style:none" casaindex="350" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="351" >
+
+
+
+                                                                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="352" >
+
+
+
+                                                                                                                                                <div casaindex="353" >
+
+
+
+                                                                                                                                                            <bmobile:imageout valueprop="pvimageparos" alt="Paros" style="width:90%;margin-bottom: 10px;padding-top:2%" casaindex="354" >
+
+
+
+                                    				                                                                                                        </bmobile:imageout>
+
+
+
+                                                                                                                                                </div>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="355" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="color:#c6d9f1;font-style:italic;margin-left:5%;margin-right:5%;text-decoration:underline;font-size: 1.2em" name="Parikia" casaindex="356" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="357" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="height:120px;margin-left:5%;margin-right:5%;color:#c6d9f1;font-style:italic;font-size: 1.1em" nameprop="pvislandtxt2" casaindex="358" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-12 col-md-3 col-sm-6 col-xs-6" casaindex="359" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color:#125996;border-style:none" casaindex="360" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="361" >
+
+
+
+                                                                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="362" >
+
+
+
+                                                                                                                                                <div casaindex="363" >
+
+
+
+                                                                                                                                                            <bmobile:imageout valueprop="pvimageaghios" alt="Agios Nikolaos" style="width:90%;margin-bottom: 10px;padding-top:2%" casaindex="364" >
+
+
+
+                                    				                                                                                                        </bmobile:imageout>
+
+
+
+                                                                                                                                                </div>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="365" >
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="366" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="color:#c6d9f1;font-style:italic;margin-left:5%;margin-right:5%;text-decoration:underline;font-size: 1.2em" name="Aghios Nikolaos" casaindex="367" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="368" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="height:120px;margin-left:5%;margin-right:5%;color:#c6d9f1;font-style:italic;font-size: 1.1em" nameprop="pvislandtxt1" casaindex="369" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-12 col-md-3 col-sm-6 col-xs-6" casaindex="370" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #125996;border-style:none" casaindex="371" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="372" >
+
+
+
+                                                                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="373" >
+
+
+
+                                                                                                                                                <div casaindex="374" >
+
+
+
+                                                                                                                                                            <bmobile:imageout valueprop="pvimagelefkas" alt="Lefkas" style="width:90%;margin-bottom: 10px;padding-top:2%" casaindex="375" >
+
+
+
+                                    				                                                                                                        </bmobile:imageout>
+
+
+
+                                                                                                                                                </div>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="376" >
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="377" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="color:#c6d9f1;font-style:italic;margin-left:5%;margin-right:5%;text-decoration:underline;font-size: 1.2em" name="Lefkas" casaindex="378" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="379" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="height:120px;margin-left:5%;margin-right:5%;color:#c6d9f1;font-style:italic;font-size: 1.1em" nameprop="pvislandtxt3" casaindex="380" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                                <bmobile:col styleclasses="col-lg-12 col-md-3 col-sm-6 col-xs-6" casaindex="381" >
+
+
+
+                                                                                                            <bmobile:panel style="background-color: #125996;border-style:none" casaindex="382" >
+
+
+
+                                                                                                                        <bmobile:panelbody casaindex="383" >
+
+
+
+                                                                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="384" >
+
+
+
+                                                                                                                                                <div casaindex="385" >
+
+
+
+                                                                                                                                                            <bmobile:imageout valueprop="pvimagesantorini" alt="Santorini" style="width:90%;margin-bottom: 10px;padding-top:2%" casaindex="386" >
+
+
+
+                                    				                                                                                                        </bmobile:imageout>
+
+
+
+                                                                                                                                                </div>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="387" >
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="388" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="color:#c6d9f1;font-style:italic;margin-left:5%;margin-right:5%;text-decoration:underline;font-size: 1.2em" name="Thira" casaindex="389" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                                    <bmobile:row casaindex="390" >
+
+
+
+                                                                                                                                                <bmobile:flabel styleclasses="center-block" style="height:120px;margin-left:5%;margin-right:5%;color:#c6d9f1;font-style:italic;font-size: 1.1em" nameprop="pvislandtxt4" casaindex="391" >
+
+
+
+                                                                                                                                                </bmobile:flabel>
+
+
+
+                                                                                                                                    </bmobile:row>
+
+
+
+                                                                                                                        </bmobile:panelbody>
+
+
+
+                                                                                                            </bmobile:panel>
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                        </bmobile:panelbody>
+
+
+
+                                                            </bmobile:panel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row style="background-color:#0C3B60" casaindex="392" >
+
+
+
+                                                <bmobile:col styleclasses="col-lg-1 col-md-1 col-sm-2 col-xs-2" casaindex="393" >
+
+
+
+                                                            <bmobile:icon iconurl="./images/RD-home2.png" method="onHome" title="Home" casaindex="394" >
+
+
+
+                                                            </bmobile:icon>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row style="height:10px;" casaindex="395" >
+
+
+
+                                    </bmobile:row>
+
+
+
+                        </bmobile:container>
+
+
+
+                        <bmobile:container takefullwidth="true" casaindex="396" >
+
+
+
+                                    <bmobile:row style="background-color:#323232; height:40px;" casaindex="397" >
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row style="background-color:#323232;" casaindex="398" >
+
+
+
+                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-6 col-xs-12" casaindex="399" >
+
+
+
+                                                            <bmobile:panel style="background-color: #323232; border-color:#6d6d6d; border-style:solid" casaindex="400" >
+
+
+
+                                                                        <bmobile:panelbody casaindex="401" >
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="402" >
+
+
+
+                                                                                                <bmobile:col casaindex="403" >
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="404" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;text-decoration:underline;margin-left=5%;color:#6d6d6d;;font-size: 1em" nameprop="pvaddinfohead1" casaindex="405" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="406" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;color:#6d6d6d;font-size: 1em;height:80px" nameprop="pvaddinfotxt1" casaindex="407" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                        </bmobile:panelbody>
+
+
+
+                                                            </bmobile:panel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-6 col-xs-12" casaindex="408" >
+
+
+
+                                                            <bmobile:panel style="background-color: #323232;border-color:#6d6d6d; border-style:solid" casaindex="409" >
+
+
+
+                                                                        <bmobile:panelbody casaindex="410" >
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="411" >
+
+
+
+                                                                                                <bmobile:col casaindex="412" >
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="413" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;text-decoration:underline;margin-left=5%;color:#6d6d6d;;font-size: 1em" nameprop="pvaddinfohead2" casaindex="414" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="415" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;color:#6d6d6d;font-size: 1em;height:80px" nameprop="pvaddinfotxt2" casaindex="416" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                        </bmobile:panelbody>
+
+
+
+                                                            </bmobile:panel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-6 col-xs-12" casaindex="417" >
+
+
+
+                                                            <bmobile:panel style="background-color: #323232;border-color:#6d6d6d; border-style:solid" casaindex="418" >
+
+
+
+                                                                        <bmobile:panelbody casaindex="419" >
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="420" >
+
+
+
+                                                                                                <bmobile:col casaindex="421" >
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="422" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;text-decoration:underline;margin-left=5%;color:#6d6d6d;font-size: 1em" nameprop="pvaddinfohead3" casaindex="423" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="424" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;margin-left=5%;color:#6d6d6d;font-size: 1em;height:80px" nameprop="pvaddinfotxt3" casaindex="425" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                        </bmobile:panelbody>
+
+
+
+                                                            </bmobile:panel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                                <bmobile:col styleclasses="col-lg-3 col-md-3 col-sm-6 col-xs-12" casaindex="426" >
+
+
+
+                                                            <bmobile:panel style="background-color: #323232;border-color:#6d6d6d; border-style:solid" casaindex="427" >
+
+
+
+                                                                        <bmobile:panelbody casaindex="428" >
+
+
+
+                                                                                    <bmobile:row styleclasses="center-block" style="width:100%" casaindex="429" >
+
+
+
+                                                                                                <bmobile:col casaindex="430" >
+
+
+
+                                                                                                </bmobile:col>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="431" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;text-decoration:underline;margin-left=5%; color:#6d6d6d;;font-size: 1em" nameprop="pvaddinfohead4" casaindex="432" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                                    <bmobile:row casaindex="433" >
+
+
+
+                                                                                                <bmobile:flabel styleclasses="center-block" style="margin-left:3%;margin-right:3%;margin-left=5%; color:#6d6d6d;font-size: 1em;height:80px" nameprop="pvaddinfotxt4" casaindex="434" >
+
+
+
+                                                                                                </bmobile:flabel>
+
+
+
+                                                                                    </bmobile:row>
+
+
+
+                                                                        </bmobile:panelbody>
+
+
+
+                                                            </bmobile:panel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row style="background-color:#323232; height:50px;" casaindex="435" >
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row style="background-color:#323232; height:20px;" casaindex="436" >
+
+
+
+                                                <bmobile:col styleclasses="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:2" casaindex="437" >
+
+
+
+                                                            <bmobile:flabel style="color:#6d6d6d;font-style:italic;font-size:8px" name="� demoright - Software AG, 2016" casaindex="438" >
+
+
+
+                                                            </bmobile:flabel>
+
+
+
+                                                </bmobile:col>
+
+
+
+                                    </bmobile:row>
+
+
+
+                                    <bmobile:row style="background-color:#0C3B60; height:10px;" casaindex="439" >
+
+
+
+                                    </bmobile:row>
+
+
+
+                        </bmobile:container>
+
+
+
+            </pagebody>
+
+
+
+</page>
