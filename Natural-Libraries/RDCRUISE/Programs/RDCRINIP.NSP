@@ -77,7 +77,7 @@ DECIDE ON FIRST VALUE OF G-LANGUAGE
     MOVE 'Allgemeine Geschäftsbedingungen' TO G-ADDINFOHEAD1 
     MOVE 'Versicherungsinformationen'                  TO G-ADDINFOHEAD2 
     MOVE 'das Wetter in Griechenland'      TO G-ADDINFOHEAD3
-    MOVE 'Impressum'                       TO G-ADDINFOHEAD4 
+    MOVE 'Imprint'                       TO G-ADDINFOHEAD4 
     MOVE 'diese Funktion wird noch nicht unterstützt'  TO G-MYDATAALERTTXT
     MOVE 'Ihre Identifikationsdaten sind unbekannt'  TO G-LOGINALERTTXT 
     MOVE 'Ein Fehler ist aufgetreten'  TO G-ERRORMSG
