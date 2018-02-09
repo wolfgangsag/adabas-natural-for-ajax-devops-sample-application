@@ -47,7 +47,7 @@ COMPRESS  P-ISLANDTXT4 INTO G-ISLANDTXT4
 EXPAND ARRAY G-MENUITEM TO (1:7)
 DECIDE ON FIRST VALUE OF G-LANGUAGE 
   VALUE  2    /* german
-    MOVE 'Start2'            TO G-MENUITEM (1)   
+    MOVE 'Start neu'            TO G-MENUITEM (1)   
     MOVE 'Reiseangebote'   TO G-MENUITEM (2)
     MOVE 'Inselfavoriten'  TO G-MENUITEM (3)
     MOVE 'Alle Reisen'     TO G-MENUITEM (4)
